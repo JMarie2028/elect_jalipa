@@ -1,5 +1,5 @@
 students = [("Jay", 15, "10th", "Photon"),("Johnica", 15, "9th", "Photon"),
-("Janel", 15, "11th", "Grav"),("Mraye", 15, "10th", "Neon"),
+("Janel", 15, "11th", "Tau"),("Mraye", 15, "10th", "Graviton"),
 ("Adi", 15, "12th", "Tau")]
 
 
@@ -25,4 +25,4 @@ print("Grade of first student (Jay) [UPDATED]:", grades["Jay"])
 
 students.append(("Scott", 15, "10th", "Photon"))
 grades["Scott"] = 100
-print("Added new student Scott with grade [UPDATED]:", grades["Scott"])
+print("Added new student named Scott with grade:", grades["Scott"])
