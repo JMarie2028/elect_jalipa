@@ -23,6 +23,7 @@ print("Grade of first student (Jay):", grades["Jay"])
 grades["Jay"] = 90
 print("Grade of first student (Jay) [UPDATED]:", grades["Jay"])
 
+print()
 students.append(("Scott", 15, "10th", "Photon"))
 grades["Scott"] = 100
 print("Added new student named Scott with grade:", grades["Scott"])
