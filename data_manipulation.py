@@ -45,3 +45,47 @@ print()
 students.append(("Scott", 15, "10th", "Photon"))
 grades["Scott"] = 100
 print("Added new student named Scott with grade:", grades["Scott"])
+git init
+git add .
+git commit -m "Initial commit"
+
+To track and commit the file
+git add helloworld.py
+
+git commit -m "Initial commit: Added main.py"
+
+Step 4 – Push to GitHub
+On GitHub, create a new repository named CS_Elective.
+
+
+Copy the remote link provided by GitHub.
+
+
+In the terminal, run:
+
+	git remote add origin <repository-link>
+git branch -M main
+git push -u origin main
+
+
+Example: 
+
+
+Step 5 – Verification
+Open your GitHub repository and check if your code is there.
+
+Step 6 – Modify your Python file
+print("Hello, GitHub! Now this is version 2.")
+
+Step 7 – Commit the changes
+git add helloworld.py
+git commit -m "Updated greeting to version 2"
+
+Step 8 – View version history
+git log --oneline
+
+Step 9 – Check the GitHub 
+
+Step 10 – Run your Python file
+python helloworld
+
